@@ -36,7 +36,7 @@ function App() {
         {
           repositories.map(repo => (
             <li key={repo.id}>
-              {repo.title} / {repo.url}
+              {repo.title}
 
               <button onClick={() => handleRemoveRepository(repo.id)}>
                 Remover
